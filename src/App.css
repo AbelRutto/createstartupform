@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  animation: changeBackground 5s infinite;
+}
+
+@keyframes changeBackground {
+  0%, 100% {
+    background-color: #5e037a; /* Red */
+  }
+  16.66% {
+    background-color: #ffa500; /* Orange */
+  }
+  33.33% {
+    background-color: #ffff66; /* Yellow */
+  }
+  50% {
+    background-color: #11ca11; /* Green */
+  }
+  66.66% {
+    background-color: #1d62a7; /* Blue */
+  }
+  83.33% {
+    background-color: #e20a0a; /* Purple */
+  }
+}
